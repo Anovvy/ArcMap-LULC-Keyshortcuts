@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>AlatLULC</Name><AddInID>{ad3d8fd9-e635-44f5-9615-b82bb76aedb6}</AddInID><Description>Alat bantu digitasi</Description><Version>0.1</Version><Image /><Author>Bayu Nabiil</Author><Company>Mapper</Company><Date>09/12/2026</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="Project_LULC_addin.py" namespace="Project_LULC_addin"><ArcMap>
+    <Commands>
+        <Button caption="Toggle Top Layer" category="LULC_Tool" class="ToggleLayer" id="Project_LULC_addin.ToggleLayer_ID" image="" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Toolbar LULC" category="LULC_Tool" id="Project_LULC_addin.toolbar" showInitially="true"><Items><Button refID="Project_LULC_addin.ToggleLayer_ID" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
