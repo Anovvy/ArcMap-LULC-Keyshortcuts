@@ -40,17 +40,17 @@ Although it uses a button layout similar to that for creating buildings/roads in
 ### 1. Main Navigation & Operation 
 | ArcMap Actions | Shortcut | Technical Implementation | Documentation |
 |---|:---:|---|:---:|
-| Adding a Point (Vertex) | `Space` | Pressing the `Space` key while sketching or splitting is simulated as a left mouse click | `GIF` | 
-| Select Features | `1` | Immediately select the Selection Tool to select a polygon | `GIF` |
-| Cut / Split Polygons | `2` | Call the Cut Polygons Tool directly | `GIF` |
-| Clear Selection | `3` | Deleting the selected polygons  | `GIF` |
+| Adding a Point (Vertex) | `Space` | Pressing the `Space` key while sketching or splitting is simulated as a left mouse click | <img width="426" height="240" alt="space_shortcut" src="https://github.com/user-attachments/assets/491adea5-c100-43a3-8eea-93bd22f80956"/> | 
+| Select Features | `1` | Immediately select the Selection Tool to select a polygon | <img width="426" height="240" alt="1_shortcut" src="https://github.com/user-attachments/assets/888457b7-b75d-4ffe-aa12-3c22817ee7ac" /> |
+| Cut / Split Polygons | `2` | Call the Cut Polygons Tool directly | <img width="426" height="240" alt="2_shortcut" src="https://github.com/user-attachments/assets/b7f90057-b460-4365-a67b-ff94d8a1bb6e" /> |
+| Clear Selection | `3` | Deleting the selected polygons  | <img width="426" height="240" alt="3_shortcut" src="https://github.com/user-attachments/assets/5875deda-f602-41ed-80a3-133837d07211" /> |
 
 ### 2. Merge Management (Merge Polygons)
 | ArcMap Actions | Shortcut | Technical Implementation | Documentation |
 |---|:---:|---|:---:|
-| Open the Merge Window | `Ctrl + Q` | Open the Merge dialogue box instantly | `GIF` | 
-| Select Merge Feature (Down) | `Ctrl + Q` | Go straight to the next feature in the list | `GIF` |
-| Select Merge Feature (Up) | `Shift + Q` | Go straight to the feature above it in the list | `GIF` |
+| Open the Merge Window | `Ctrl + Q` | Open the Merge dialogue box instantly | <img width="426" height="240" alt="CtrlQ_shortcut" src="https://github.com/user-attachments/assets/9a3f358f-b12a-41dc-882a-bf445a1bd929" /> | 
+| Select Merge Feature (Down) | `Ctrl + Q` | Go straight to the next feature in the list | <img width="426" height="240" alt="CtrlQdown_shortcut" src="https://github.com/user-attachments/assets/81653219-b7c7-48a1-be4e-298e7df56756" /> |
+| Select Merge Feature (Up) | `Shift + Q` | Go straight to the feature above it in the list | <img width="426" height="240" alt="ShiftQup_shortcut" src="https://github.com/user-attachments/assets/f955ea4c-ffb4-4d1a-b742-bac2171e7342" /> |
 
 **Technical Notes on Merging:**
 
@@ -59,8 +59,8 @@ Due to inherent limitations in ArcObjects, navigating through the list using the
 ### 3. Utility
 | ArcMap Actions | Shortcut | Technical Implementation | Documentation |
 |---|:---:|---|:---:|
-| Smart Toggle Layer (On/Off) | `W` | Toggle the visibility of the currently selected (highlighted) layer in the Table of Contents (TOC). | `GIF` | 
-| Save Edits | `Shift + S` | Save the editing session | `GIF` |
+| Smart Toggle Layer (On/Off) | `W` | Toggle the visibility of the currently selected (highlighted) layer in the Table of Contents (TOC). | <img width="426" height="240" alt="W_shortcut" src="https://github.com/user-attachments/assets/25429cb6-6504-412f-862c-5a925e648f5f" /> | 
+| Save Edits | `Shift + S` | Save the editing session | <img width="426" height="240" alt="ShiftS_shortcut" src="https://github.com/user-attachments/assets/5b1181a7-d93b-44d7-b9ae-6b096b5f33ff" /> |
 
 ## System Requirement
 - **ArcMap 10.x** (Tested on version 10.8)
